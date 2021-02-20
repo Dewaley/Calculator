@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 html {
   font-size: 10px;
@@ -18,7 +18,7 @@ body {
   transform: translate(-50%, -50%);
   width: 35rem;
   height: 50rem;
-  background-color: #0000ff;
+  background-color: #324365;
   border-radius: 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -26,6 +26,7 @@ body {
   grid-gap: 10px;
   padding: 1rem;
   font-size: 2rem;
+		font-weight: 800;
 		overflow: hidden;
 }
 .output {
@@ -55,8 +56,9 @@ button {
   border: none;
   outline: none;
   border-radius: 50px;
-  background: linear-gradient(315deg, #0000ff, #0000e6);
-  box-shadow: -20px -20px 60px #0000bf, 20px 20px 60px #0000ff;
+background: linear-gradient(315deg, #36486c, #2d3c5b);
+box-shadow:  -20px -20px 60px #26324c,
+             20px 20px 60px #3f547e;
   font-size: 2rem;
   color: white;
 }
@@ -65,8 +67,11 @@ button:hover {
 }
 button:active {
   border-radius: 50px;
-  background: #0000ff;
-  box-shadow: inset -20px -20px 60px #0000bf, inset 20px 20px 60px #0000ff;
+background: #324365;
+box-shadow: inset -20px -20px 60px #26324c,
+            inset 20px 20px 60px #3f547e;
+
+  background: #494470;
 }
 .symbol {
   color: rgb(184, 67, 24);
